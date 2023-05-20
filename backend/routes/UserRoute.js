@@ -9,10 +9,11 @@ import {
 
 const router = express.Router();
 
-router.get('/users', getUsers);
-router.get('/users/:id', getUserById);
-router.post('/users', createUser);
-router.patch('/users/:id', updateUser);
-router.delete('/users/:id', deleteUser);
+// Define routes and their corresponding controller functions
+router.get('/users', getUsers); // Route to get all users
+router.get('/users/:id', getUserById); // Route to get a user by ID
+router.post('/users', createUser); // Route to create a new user
+router.patch('/users/:id', updateUser); // Route to update a user by ID
+router.delete('/users/:id', deleteUser); // Route to delete a user by ID
 
 export default router;
