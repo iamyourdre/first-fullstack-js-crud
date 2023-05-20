@@ -2,7 +2,7 @@
 
 ### With Node JS, Express, React JS, and MySQL
 
-### Prerequisite
+### Prerequisite:
 
 1. Move to `cd backend`
 2. Run `npm i express mysql2 sequelize cors`
